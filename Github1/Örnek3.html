@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="bir">
+        <nav class="navbar bg-warning navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img src="Görseller/proje(3)/NEW2.png" alt="Logo" width="100" height="100"
+                        class="d-inline-block align-text-top rounded-5 mb-3">
+                </a>
+            </div>
+
+            <div class="container-fluid mx-auto">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="#bir" class="nav-link active text-light" aria-current="page">Anasayfa</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#iki" class="nav-link text-light">Projelerimiz</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menü
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#dort" class="dropdown-item text-dark">Hakkımızda</a></li>
+                                <li><a href="#uc" class="dropdown-item text-dark">İletişim</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item text-dark" href="#">Daha Fazla...</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Search</button>
+                    </form>
+            </div>
+    </div>
+    </nav>
+    </div>
+
+
+    <header>
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Görseller/proje(3)/karahanyazılım.png" class="d-block w-100" alt="image">
+                </div>
+    </header>
+
+
+
+
+    <div id="iki">
+        <footer class="bg-warning mt-5 text-center">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="
+                card h-100">
+                        <img src="Görseller/proje(3)/one.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title bg-body-secondary rounded-5">Dijitalde Yeriniz Alın</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Görseller/proje(3)/two.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title bg-body-secondary rounded-5">İnovasyon</h5>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="Görseller/proje(3)/three.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title bg-body-secondary rounded-5">Bize Katılın</h5>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+    <div id="uc">
+        <main class="w-50 mx-auto">
+            <h2 class="text-center mt-5 bg-primary rounded-3">İletişim Formu</h2>
+
+            <form class="form-one">
+                <div class="mb-3">
+                    <label for="name" class="form-label">Adınız</label>
+                    <input type="name" class="form-control" id="name" placeholder="isim">
+                </div>
+
+                <div class="mb-3">
+                    <label for="surname" class="form-label">Soyadınız</label>
+                    <input type="surname" class="form-control" id="surname" placeholder="soyad">
+                </div>
+
+
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email adresiniz</label>
+                    <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                        placeholder="email">
+                    <div id="emailHelp" class="form-text">E-postanızı asla başka biriyle paylaşmayacağız.</div>
+                </div>
+
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Mesajınız</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                        placeholder="mesajınız"></textarea>
+                </div>
+
+                <select class="form-select form-select-sm mt-3 mb-3" aria-label=".form-select-sm example">
+                    <option selected>Eğitimlerimiz</option>
+                    <option value="1">Javascript</option>
+                    <option value="2">C</option>
+                    <option value="3">HTML</option>
+                    <option value="4">CSS</option>
+                    <option value="5">Bootstrap</option>
+                </select>
+
+
+                <button type="submit" class="btn btn-outline-primary mb-5">Gönder</button>
+            </form>
+        </main>
+    </div>
+
+
+
+    <div id="dort">
+        <div class="bg-warning p-5 text-white text-center">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://twitter.com/seyitkarahan0" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://github.com/seyitkarahan" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <p class="m-5">© 2023 Karahan Yazılım Şirketi A.Ş - Her hakkı saklıdır.</p>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

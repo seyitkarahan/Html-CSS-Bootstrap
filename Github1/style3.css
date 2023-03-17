@@ -1,0 +1,26 @@
+footer{
+    border-radius: 10px;
+}
+
+i{
+    margin-left: 50px;
+    font-size: 35px;
+    color: rgba(255, 255, 255, 0.638); 
+}
+
+i:hover{
+    color: rgb(0, 0, 0);
+}
+
+p{
+    position: relative;
+    left: 30px;
+    font-size: 13px;
+    color: rgba(255, 255, 255, 0.638);
+}
+
+p:hover{
+    color: rgb(0, 0, 0);
+}
+
+
